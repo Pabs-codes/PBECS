@@ -1,10 +1,13 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
+  { href: '/', key: 'how_hilink_work', label: 'About' },
   { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '/', key: 'pricing ', label: 'Contact ' },
+  { href: '/', key: 'contact_us', label: 'Gallery' },
+  { href: '/', key: 'contact_us', label: 'Documents' },
+  { href: '/', key: 'contact_us', label: 'Promotions' },
+  { href: '/', key: 'contact_us', label: 'BA supply' },
 ];
 
 // CAMP SECTION
@@ -24,6 +27,7 @@ export const FEATURES = [
     description:
       'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
   },
+  
   {
     title: 'Set an adventure schedule',
     icon: '/calendar.svg',
@@ -52,7 +56,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
+      'About PBECS',
       'Press Releases',
       'Environment',
       'Jobs',
@@ -62,15 +66,15 @@ export const FOOTER_LINKS = [
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['none', 'none', 'none'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Admin ', value: '123-456-7890' },
+    { label: 'Email ', value: 'PBECS.com' },
   ],
 };
 
